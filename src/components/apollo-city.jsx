@@ -15,7 +15,7 @@ const apollo_city = () => {
             data-item-id="apollo-city"
             data-item-image={image1}
             data-item-name={title1}
-            data-item-price="$79.99"
+            data-item-price="79.99"
             data-item-url="/SeeElectronics/electricscooters/apollo_city"
           >
             Add
