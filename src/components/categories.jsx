@@ -50,7 +50,7 @@ const categories = () => {
           
           
           
-          <Link to="/electricscooters">
+          <Link to="/SeeElectronics/electricscooters">
             <div className="category">
               <div className="category_image">
                 <img src={image1} alt={title1} />

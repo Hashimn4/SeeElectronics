@@ -22,7 +22,7 @@ const electric_scooters = () => {
           
           
           
-        <Link to="/electricscooters/apollo_city">
+        <Link to="/SeeElectronics/electricscooters/apollo_city">
         <div className="scooter">
           <div className="scooter_image">
             <img src={image1} alt={title1} />
