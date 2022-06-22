@@ -12,7 +12,7 @@ const apollo_city = () => {
           </div>
 
           <button className='buy-button snipcart-add-item'
-            data-item-id="1"
+            data-item-id="apollo-city"
             data-item-image={image1}
             data-item-name={title1}
             data-item-price="79.99"
