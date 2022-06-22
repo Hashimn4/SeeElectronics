@@ -18,7 +18,7 @@ const App = () => {
                 <Routes>
                     <Route path="/SeeElectronics" element={<Categories />} />
                     <Route path="/SeeElectronics/electricscooters" element={<Electric />}/>
-                    <Route path="/SeeElectronics/electricscooters/apollo_city" element={<ApolloCity />}/>
+                    <Route path="/SeeElectronics/electricscooters/apollocity" element={<ApolloCity />}/>
                     
                     
                     <Route path="/contact" element={<Contact />} />  
