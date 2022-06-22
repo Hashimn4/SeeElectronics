@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SeeElectronics/static/css/main.204e2475.css",
-    "main.js": "/SeeElectronics/static/js/main.f781cabd.js",
+    "main.js": "/SeeElectronics/static/js/main.b74b593b.js",
     "static/js/787.c875205c.chunk.js": "/SeeElectronics/static/js/787.c875205c.chunk.js",
     "static/media/unagi_model_one.jpeg": "/SeeElectronics/static/media/unagi_model_one.c7eae9fda5ffc6cfab20.jpeg",
     "static/media/glion_dolly.jpeg": "/SeeElectronics/static/media/glion_dolly.7a1f2c5b0c4d42e3874d.jpeg",
@@ -17,11 +17,11 @@
     "static/media/wifi.webp": "/SeeElectronics/static/media/wifi.5bae63941da7fa946ce8.webp",
     "index.html": "/SeeElectronics/index.html",
     "main.204e2475.css.map": "/SeeElectronics/static/css/main.204e2475.css.map",
-    "main.f781cabd.js.map": "/SeeElectronics/static/js/main.f781cabd.js.map",
+    "main.b74b593b.js.map": "/SeeElectronics/static/js/main.b74b593b.js.map",
     "787.c875205c.chunk.js.map": "/SeeElectronics/static/js/787.c875205c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.204e2475.css",
-    "static/js/main.f781cabd.js"
+    "static/js/main.b74b593b.js"
   ]
 }
