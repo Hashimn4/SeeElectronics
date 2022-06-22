@@ -1,0 +1,47 @@
+.electricScooters_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    
+    width: var(--container-width-sm);
+}
+
+.scooter {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.scooter_title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    .electricScooters_container {
+        grid-template-columns: 1fr 1fr;
+        width: var(--container-width-md);
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .electricScooters_container {
+        grid-template-columns: repeat(3, 1fr);
+        width: var(--container-width-lg);
+        gap: 2.5rem;
+    }
+
+    .scooter:hover {
+        transform: scale(1.1);
+    }
+
+    .scooter {
+        transition: ease 0.5s;
+    }
+}
