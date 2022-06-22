@@ -11,7 +11,7 @@ import ApolloCity from './apollo-city';
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/SeeElectronics">
             <Nav />
             
             <div className="hi">
