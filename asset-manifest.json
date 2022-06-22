@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/SeeElectronics/static/css/main.204e2475.css",
+    "main.js": "/SeeElectronics/static/js/main.6467f03b.js",
+    "static/js/787.c875205c.chunk.js": "/SeeElectronics/static/js/787.c875205c.chunk.js",
+    "static/media/unagi_model_one.jpeg": "/SeeElectronics/static/media/unagi_model_one.c7eae9fda5ffc6cfab20.jpeg",
+    "static/media/glion_dolly.jpeg": "/SeeElectronics/static/media/glion_dolly.7a1f2c5b0c4d42e3874d.jpeg",
+    "static/media/segway_ninebot_kickstarter_max.webp": "/SeeElectronics/static/media/segway_ninebot_kickstarter_max.230514f1fadb857ac377.webp",
+    "static/media/razer_e100.png": "/SeeElectronics/static/media/razer_e100.a2dd76d0f34ba04cce96.png",
+    "static/media/apollo_city.jpeg": "/SeeElectronics/static/media/apollo_city.7016349903323355db30.jpeg",
+    "static/media/laptop.jpeg": "/SeeElectronics/static/media/laptop.40b59173fd893302bcf1.jpeg",
+    "static/media/SmartWatch.jpeg": "/SeeElectronics/static/media/SmartWatch.4268197d65b9954b8bac.jpeg",
+    "static/media/tv.png": "/SeeElectronics/static/media/tv.59ac4ae9976bba86bcd6.png",
+    "static/media/swagtron_swagger_5_elite.jpeg": "/SeeElectronics/static/media/swagtron_swagger_5_elite.2e792bfbb4ba0b565b3c.jpeg",
+    "static/media/electricscooters.jpeg": "/SeeElectronics/static/media/electricscooters.60b143d87884a1741f24.jpeg",
+    "static/media/Gaming.jpeg": "/SeeElectronics/static/media/Gaming.e211afde390a76ef4e11.jpeg",
+    "static/media/wifi.webp": "/SeeElectronics/static/media/wifi.5bae63941da7fa946ce8.webp",
+    "index.html": "/SeeElectronics/index.html",
+    "main.204e2475.css.map": "/SeeElectronics/static/css/main.204e2475.css.map",
+    "main.6467f03b.js.map": "/SeeElectronics/static/js/main.6467f03b.js.map",
+    "787.c875205c.chunk.js.map": "/SeeElectronics/static/js/787.c875205c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.204e2475.css",
+    "static/js/main.6467f03b.js"
+  ]
+}
