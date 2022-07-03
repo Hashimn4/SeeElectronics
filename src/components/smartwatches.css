@@ -1,51 +1,24 @@
-.electricScooters_container {
+.smartWatches_container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-top: 6rem;
-    
     width: var(--container-width-sm);
 }
 
-
-
-
-
-
 @media screen and (min-width: 600px) {
-    .electricScooters_container {
+    .smartWatches_container {
         grid-template-columns: 1fr 1fr;
         width: var(--container-width-md);
         gap: 1.2rem;
     }
-
-    .buy-button {
-        padding: 1rem 4rem;
-    }
 }
 
 @media screen and (min-width: 1024px) {
-    .electricScooters_container {
+    .smartWatches_container {
         grid-template-columns: repeat(3, 1fr);
         width: var(--container-width-lg);
         gap: 2.5rem;
         margin-top: 7rem;
-    }
-
-    .scooter:hover {
-        transform: scale(1.1);
-    }
-
-    .scooter {
-        transition: ease 0.5s;
-    }
-
-    .buy-button {
-        padding: 1rem 2rem;
-        
-    }
-
-    .buy-button:hover {
-        cursor: pointer;
     }
 }

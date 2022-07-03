@@ -1,0 +1,60 @@
+.card {
+    background-color: #FC4A1A;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.card_title {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.buy-button {
+    background-color: #F7B733;
+    color: white;
+    padding: 1rem 6rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card_price {
+    padding-bottom: 0.5rem;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+
+    
+
+    .buy-button {
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .card {
+        transition: ease 0.5s;
+    }
+
+    .buy-button {
+        padding: 1rem 2rem;
+        
+    }
+
+    .buy-button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}

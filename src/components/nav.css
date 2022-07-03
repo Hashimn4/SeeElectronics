@@ -5,4 +5,119 @@ nav {
     width: 100%;
     position: fixed;
     top: 0;
+    height: 8vh;
+    align-items: center
 }
+
+#check-box {
+    display: none;
+}
+
+.mobile-menu {
+    width: 50vw;
+    
+    position: fixed;
+    top: 8vh;
+    left: -50vw;
+    
+    background-color: black;
+    transition: 0.5s ease-out;
+    
+}
+
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-menu ul li {
+    line-height: 7rem;
+    color: white;
+}
+
+.s {
+    color: white;
+}
+
+#hamburger-icon {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#check-box:checked ~ .mobile-menu {
+    left: 0;
+   
+}
+
+#check-box:checked ~ .mobile-menu ul li {
+   
+}
+
+.links {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cart {
+    font-size: 1.5rem;
+    background: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.cart span {
+    font-size: 1rem;
+}
+
+.contact {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (min-width:600px) {
+    .contact {
+        display: block;
+    }
+
+    .links {
+        gap: 5rem;
+        margin-right: 5rem;
+        
+    }
+
+    #hamburger-icon {
+        display: none;
+    }
+
+    .title {
+        margin-left: 5rem ;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact:hover{
+        text-decoration: underline;
+    } 
+    .cart:hover{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+

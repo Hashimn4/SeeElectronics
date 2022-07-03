@@ -62,7 +62,7 @@ const categories = () => {
             
           </Link>
           
-          <Link to="/contact">
+          <Link to="/SeeElectronics/gaming">
             <div className="category">
               <div className="category_image">
                 <img src={image2} alt={title2} />
@@ -73,7 +73,7 @@ const categories = () => {
             </div>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/SeeElectronics/laptops">
             <div className="category">
               <div className="category_image">
                 <img src={image3} alt={title3} />
@@ -84,7 +84,7 @@ const categories = () => {
             </div>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/SeeElectronics/smartwatches">
             <div className="category">
               <div className="category_image">
                 <img src={image4} alt={title4} />
@@ -95,7 +95,7 @@ const categories = () => {
             </div>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/SeeElectronics/tv">
             <div className="category">
               <div className="category_image">
                 <img src={image5} alt={title5} />
@@ -106,7 +106,7 @@ const categories = () => {
             </div>
           </Link>
 
-          <Link to="/contact">
+          <Link to="/SeeElectronics/wifi">
             <div className="category">
               <div className="category_image">
                 <img src={image6} alt={title6} />
@@ -117,9 +117,7 @@ const categories = () => {
             </div>
           </Link>
 
-          <Routes>
-            <Route path="/electricscooters" element={<Electric />}/>
-          </Routes>
+          
       
       </div>
       
