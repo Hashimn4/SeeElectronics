@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SeeElectronics/static/css/main.64219c3a.css",
-    "main.js": "/SeeElectronics/static/js/main.b40bb634.js",
+    "main.js": "/SeeElectronics/static/js/main.69943a49.js",
     "static/js/787.c875205c.chunk.js": "/SeeElectronics/static/js/787.c875205c.chunk.js",
     "static/media/insignia-40-n10-series.jpeg": "/SeeElectronics/static/media/insignia-40-n10-series.90c436922614f38b4b1b.jpeg",
     "static/media/unagi_model_one.jpeg": "/SeeElectronics/static/media/unagi_model_one.c7eae9fda5ffc6cfab20.jpeg",
@@ -47,11 +47,11 @@
     "static/media/Arris-SURFboard-SB6190-Docsis-3.0-Cable-Modem.webp": "/SeeElectronics/static/media/Arris-SURFboard-SB6190-Docsis-3.0-Cable-Modem.3ef8fade6f31497f5b3e.webp",
     "index.html": "/SeeElectronics/index.html",
     "main.64219c3a.css.map": "/SeeElectronics/static/css/main.64219c3a.css.map",
-    "main.b40bb634.js.map": "/SeeElectronics/static/js/main.b40bb634.js.map",
+    "main.69943a49.js.map": "/SeeElectronics/static/js/main.69943a49.js.map",
     "787.c875205c.chunk.js.map": "/SeeElectronics/static/js/787.c875205c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64219c3a.css",
-    "static/js/main.b40bb634.js"
+    "static/js/main.69943a49.js"
   ]
 }
