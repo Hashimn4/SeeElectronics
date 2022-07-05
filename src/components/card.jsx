@@ -21,7 +21,7 @@ const card = (props) => {
             data-item-image={props.pic}
             data-item-name={props.title}
             data-item-price={props.price.replace('$', '')}
-            data-item-url="/apollocity"
+            data-item-url="/SeeElectronics/electricscooters/apollocity"
 
           >
             Add to cart
