@@ -42,8 +42,15 @@ title4 = "Smart Watches", title5 = "TV", title6 = "Wifi";
 const categories = () => {
     
   return (
+    <>
+    <div className="main_title">
+      <h1>Explore Our Electronics Below!</h1>
+    </div>
     
     <div className="container categories_container">
+      
+        
+      
       
         
         
@@ -120,6 +127,7 @@ const categories = () => {
           
       
       </div>
+      </>
       
       
     

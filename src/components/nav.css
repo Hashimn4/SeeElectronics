@@ -1,16 +1,21 @@
 nav {
-    background-color: bisque;
+    background-color: #FC4A1A;
     display: flex;
     justify-content: space-around;
     width: 100%;
     position: fixed;
     top: 0;
     height: 8vh;
-    align-items: center
+    align-items: center;
+    color: white;
 }
 
 #check-box {
     display: none;
+}
+
+.mobile-menu span {
+    text-align: center;
 }
 
 .mobile-menu {
@@ -20,7 +25,7 @@ nav {
     top: 8vh;
     left: -50vw;
     
-    background-color: black;
+    background-color: goldenrod;
     transition: 0.5s ease-out;
     
 }
@@ -33,11 +38,22 @@ nav {
 }
 
 .mobile-menu ul li {
-    line-height: 7rem;
+    line-height: 2.5rem;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.categories_li .mobile_categories {
+    display: none;
+    transition: 1s ease-in-out;
+}
+
+.mobile_link {
     color: white;
 }
 
-.s {
+.menu_link {
     color: white;
 }
 
@@ -48,11 +64,17 @@ nav {
 
 #check-box:checked ~ .mobile-menu {
     left: 0;
-   
+    
 }
 
-#check-box:checked ~ .mobile-menu ul li {
-   
+
+
+#checkbox2 {
+    display: none;
+}
+
+#checkbox2:checked + .categories_li .mobile_categories {
+    display: block;
 }
 
 .links {
@@ -62,15 +84,22 @@ nav {
 }
 
 
-.title {
+.nav_title {
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
+
+.navlink_title {
+    color: white;
+}
+
 
 .cart {
     font-size: 1.5rem;
+    
     background: none;
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
@@ -80,8 +109,13 @@ nav {
 
 .contact {
     display: none;
+    
 }
 
+.contact_link {
+    color: white;
+    font-weight: bold;
+}
 
 
 
@@ -102,7 +136,7 @@ nav {
         display: none;
     }
 
-    .title {
+    .nav_title {
         margin-left: 5rem ;
     }
 

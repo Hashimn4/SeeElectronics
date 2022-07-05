@@ -12,7 +12,7 @@ form {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
-    border: 1px solid red;
+   
    height: 30rem;
     box-sizing: border-box;
     background-color: #FC4A1A;
@@ -29,7 +29,7 @@ form input {
 }
 
 form input:hover {
-    border: 2px solid red;
+    border: 2px solid #4ABDAC;
 }
 
 form input:focus {
@@ -58,7 +58,7 @@ form label {
 }
 
 #message:hover {
-    border-color: red;
+    border-color: #4ABDAC;
 }
 
 #btn {
@@ -68,8 +68,10 @@ form label {
     padding: 1rem;
     border-radius: 10px;
     font-size: 1.2rem;
+    font-weight: bold;
     transition: 0.5s;
     background-color: #F7B733;
+    color: white;
 }
 
 #btn:hover {
@@ -87,11 +89,14 @@ form label {
 }
 
 @media screen and (min-width: 1024px) {
-    .contact_container {
-        
-    }
 
     #btn {
         width: 50%;
+        transition: none;
+        
+    }
+
+    #btn:hover {
+        opacity: 0.8;
     }
 }
