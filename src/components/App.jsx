@@ -7,7 +7,6 @@ import Nav from './nav';
 import Categories from './categories';
 import Contact from './contact';
 import Electric from './electric_scooters'
-import ApolloCity from './apollo-city';
 import Gaming from './gaming';
 import Laptops from './laptops';
 import SmartWatches from './smartwatches';
@@ -23,7 +22,6 @@ const App = () => {
                 <Routes>
                     <Route path="/SeeElectronics" element={<Categories />} />
                     <Route path="/SeeElectronics/electricscooters" element={<Electric />}/>
-                    <Route path="/SeeElectronics/electricscooters/apollocity" element={<ApolloCity />}/>
                     <Route path="/SeeElectronics/gaming" element={<Gaming />}/>
                     <Route path="/SeeElectronics/laptops" element={<Laptops />}/>
                     <Route path="/SeeElectronics/smartwatches" element={<SmartWatches />}/>
